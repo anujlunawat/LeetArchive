@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "name": "LeetArchive",
+  "description": "Automatically commit your LeetCode solutions to GitHub",
+  "homepage_url": "https://github.com/anujlunawat/LeetArchive",
+  "version": "1.0.0",
+  "author": "Anuj Lunawat",
+  "minimum_chrome_version": "88",
+  "action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Upload your LeetCode solutions to GitHub"
+  },
+  "icons": {
+    "16": "assets/icon_16.png",
+    "32": "assets/icon_32.png",
+    "48": "assets/icon_48.png",
+    "128": "assets/icon_128.png"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "storage",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://github.com/*"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["assets/*"],
+    "matches": ["https://leetcode.com/*", "https://github.com/*"]
+  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/*"
+      ],
+      "js": [
+        "scripts/leetcode.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "scripts/authorize.js"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
