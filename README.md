@@ -32,7 +32,7 @@ No more manual copying of solutions! LeetArchive automatically organizes your so
 
 <p>It's simple:</p>
 <ol>
-  <li>Install the extension from Chrome Web Store: <a href="<a href="https://chromewebstore.google.com/detail/leetarchive/egpghjhndnglogkappfmfokomolppmln">[LINK]</a></li>
+  <li>Install the extension from Chrome Web Store: <a href="https://chromewebstore.google.com/detail/leetarchive/egpghjhndnglogkappfmfokomolppmln">[LINK]</a></li>
   <li>Authorize with GitHub to set up your account</li>
   <li>Create or link an existing repository (private by default)</li>
   <li>Start solving problems on LeetCode - LeetArchive will automatically sync your solutions!</li>
