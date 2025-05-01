@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/anujlunawat/LeetArchive-Extension"><img src="assets/thumbnail-1.0.png" alt="LeetArchive - Automatically sync your LeetCode solutions to GitHub" width="400"></a>
+  <a href="https://github.com/anujlunawat/LeetArchive-Extension"><img src="assets/extension/thumbnailWDesc-1400x560.png" alt="LeetArchive - Automatically sync your LeetCode solutions to GitHub" width="400"></a>
   <br>
   <a href="https://github.com/anujlunawat/LeetArchive-Extension">LeetArchive</a> - Automatically sync your LeetCode solutions to GitHub
   <br>
@@ -12,12 +12,12 @@
   </a>
   <img alt="Chrome" src="https://img.shields.io/badge/Chrome-Extension-blue">
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/anujlunawat/LeetArchive-Extension?style=social">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/anujlunawat/GitItDLeetArchive-Extension">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/anujlunawat/LeetArchive">
 </p>
 
 
-## What is GitILeetArchivetDone?
-<p>A Chrome extension that automatically pushes your LeetCode solutions to GitHub when you solve a problem. It helps you maintain a portfolio of your coding interview preparation and track your progress.
+## What is LeetArchive?
+<p>A <a href="https://chromewebstore.google.com/detail/leetarchive/egpghjhndnglogkappfmfokomolppmln">Chrome extension</a> that automatically pushes your LeetCode solutions to GitHub when you solve a problem. It helps you maintain a portfolio of your coding interview preparation and track your progress.
   <br>It's forked from <a href="https://github.com/arunbhardwaj/LeetHub-2.0">LeetHub-2.0</a> which is not compatible with Leetcode anymore since the latest updates, and inspired by
   <a href="https://github.com/raphaelheinz/LeetHub-3.0">LeetHub-3.0</a></p>
 
@@ -32,7 +32,7 @@ No more manual copying of solutions! LeetArchive automatically organizes your so
 
 <p>It's simple:</p>
 <ol>
-  <li>Install the extension from Chrome Web Store (coming soon)</li>
+  <li>Install the extension from Chrome Web Store: <a href="<a href="https://chromewebstore.google.com/detail/leetarchive/egpghjhndnglogkappfmfokomolppmln">[LINK]</a></li>
   <li>Authorize with GitHub to set up your account</li>
   <li>Create or link an existing repository (private by default)</li>
   <li>Start solving problems on LeetCode - LeetArchive will automatically sync your solutions!</li>
@@ -49,10 +49,7 @@ No more manual copying of solutions! LeetArchive automatically organizes your so
 
 ## Installation
 
-1. **Chrome Web Store** (coming soon)
-   - Install from Chrome Web Store
-   - This is the preferred way of installation
-   - Updates are installed automatically
+1. **Chrome Web Store**: <a href="https://chromewebstore.google.com/detail/leetarchive/egpghjhndnglogkappfmfokomolppmln">*[LINK]*</a>
 
 2. **Manual installation**
     You can also install the plugin manually. Please follow the steps below:
