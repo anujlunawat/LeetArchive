@@ -1,5 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/anujlunawat/LeetArchive-Extension"><img src="assets/extension/thumbnailWDesc-1400x560.png" alt="LeetArchive - Automatically sync your LeetCode solutions to GitHub" width="400"></a>
+  <a href="https://github.com/anujlunawat/LeetArchive-Extension"><img src="https://raw.githubusercontent.com/anujlunawat/LeetArchive/main/assets/extension/thumbnailWDesc-1400x560.png" alt="LeetArchive - Automatically sync your LeetCode solutions to GitHub" width="400"></a>
+
   <br>
   <a href="https://github.com/anujlunawat/LeetArchive-Extension">LeetArchive</a> - Automatically sync your LeetCode solutions to GitHub
   <br>
